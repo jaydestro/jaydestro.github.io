@@ -15,7 +15,7 @@ Open <http://127.0.0.1:8000>. No package installation or build step is needed.
 ## Editing and publishing
 
 - Update the bio, projects, selected works, talks, and links in `index.html`.
-- Update professional experience, technical skills, and career highlights in `resume.html`. Keep its document-style layout: compact contact details, inline skills, chronological roles, and single-column highlights. It shares the site's colors through `styles.css` and includes print styles.
+- Update professional experience, technical skills, and career highlights in `resume.html`. Keep `resume.pdf` in sync with the HTML; the page includes print styles and a PDF download.
 - Both pages use a circular portrait, name, and title in the header and footer, with resume links in the navigation and footer; keep these shared elements in sync.
 - Update the layout and responsive styles in `styles.css`. The blue-and-black palette and gradients are defined as CSS variables in its `:root` block.
 - `favicon.svg` contains the site's icon. The header and footer use `headshot-480.webp` for the circular portrait; regenerate the photo variants if you replace it.
@@ -27,9 +27,11 @@ GitHub Pages publishes directly from the root of `main`. Merging changes into
 Keep the talks and writing list current: only feature content published within
 the last two years, and show the month and year for each item. Prefer the Azure
 Cosmos DB Blog, YouTube, Microsoft Reactor, and LinkedIn as sources.
-Blogs (`#blogs`) and Videos (`#videos`) are separate sections and navigation
-links. Each shows exactly five items, newest first, with older items inside its
-own `.more-talks-list`. Keep entries simple: source, date, and linked title.
+The homepage section order and navigation are Projects, Blogs, Videos, and
+Selected works (`#selected-works`). Blogs (`#blogs`) and Videos (`#videos`) are
+separate sections. Each shows exactly five items, newest first, with older
+items inside its own `.more-talks-list`. Keep entries simple: source, date, and
+linked title.
 The native `<details>` expanders work without JavaScript and support keyboard
 navigation. Use verified audience metrics when selecting for popularity; do
 not imply a popularity ranking without them.
