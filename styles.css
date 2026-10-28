@@ -52,8 +52,9 @@ h1 { font-size: clamp(3.8rem, 6.7vw, 6rem); font-weight: 550; line-height: 1.02;
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 24px; padding: 16px 21px; background: var(--gradient-accent); color: var(--accent-ink); border: 0; border-radius: 2px; font-size: .8rem; font-weight: 600; box-shadow: 0 8px 24px -10px rgba(59, 130, 246, .7); transition: box-shadow .15s; }
 .button:hover { background: var(--gradient-accent-hover); box-shadow: 0 10px 30px -8px rgba(96, 165, 250, .85); text-decoration: none; }
 .text-link { font-size: .8rem; font-weight: 600; display: inline-flex; gap: 16px; align-items: center; }
-.portrait-frame { flex: 0 0 68px; width: 68px; aspect-ratio: 1; padding: 2px; overflow: hidden; border-radius: 50%; background: linear-gradient(135deg, #bfdbfe 0%, #60a5fa 35%, #2563eb 65%, #7cc4ff 100%); box-shadow: 0 8px 32px -12px rgba(59, 130, 246, .65); }
+.portrait-frame { display: block; flex: 0 0 68px; width: 68px; aspect-ratio: 1; padding: 2px; overflow: hidden; border-radius: 50%; background: linear-gradient(135deg, #bfdbfe 0%, #60a5fa 35%, #2563eb 65%, #7cc4ff 100%); box-shadow: 0 8px 32px -12px rgba(59, 130, 246, .65); }
 .portrait-frame img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 24%; border-radius: 50%; }
+.portrait-frame:focus-visible { outline-offset: 4px; }
 .portrait-name { color: var(--accent-soft); font-size: .95rem; font-weight: 650; }
 .hero-video { min-width: 0; margin: 0; }
 .video-frame { overflow: hidden; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface); box-shadow: 0 24px 70px -35px rgba(59, 130, 246, .5); }
