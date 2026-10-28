@@ -14,7 +14,7 @@ Open <http://127.0.0.1:8000>. No package installation or build step is needed.
 
 ## Editing and publishing
 
-- Update the bio, featured projects, talks, and links in `index.html`.
+- Update the bio, projects, selected works, talks, and links in `index.html`.
 - Update the layout and responsive styles in `styles.css`. The blue-and-black palette and gradients are defined as CSS variables in its `:root` block.
 - `favicon.svg` contains the site's icon. `headshot-480` and `headshot-960` (WebP with JPEG fallback) are the hero portrait; regenerate both sizes if you replace the photo.
 - The hero uses a small circular portrait and a responsive YouTube embed. Update the iframe's video ID and `start` value (in seconds), plus its title, caption, and YouTube link, together.
