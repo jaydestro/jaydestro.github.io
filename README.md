@@ -15,8 +15,8 @@ Open <http://127.0.0.1:8000>. No package installation or build step is needed.
 ## Editing and publishing
 
 - Update the bio, featured projects, talks, and links in `index.html`.
-- Update the layout, colors, and responsive styles in `styles.css`.
-- `favicon.svg` contains the site's icon.
+- Update the layout and responsive styles in `styles.css`. The blue-and-black palette and gradients are defined as CSS variables in its `:root` block.
+- `favicon.svg` contains the site's icon. `headshot-480` and `headshot-960` (WebP with JPEG fallback) are the hero portrait; regenerate both sizes if you replace the photo.
 
 GitHub Pages publishes directly from the root of `main`. Merging changes into
 `main` triggers publication; feature branches do not change the live site.
