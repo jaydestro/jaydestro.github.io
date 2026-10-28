@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#05070d">
-    <meta name="description" content="Jay Gordon is a Senior Program Manager at Microsoft focused on Azure Cosmos DB and developer communities. Explore projects, talks, and writing on cloud tools and AI-assisted development.">
+    <meta name="description" content="Jay Gordon is a Senior Program Manager at Microsoft working across technical product strategy, developer experience, and AI-assisted development. Explore original projects, writing, and talks.">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Jay Gordon | Cloud, code & community">
-    <meta property="og:description" content="Practical projects, talks, and writing on Azure Cosmos DB, cloud operations, and AI-assisted development.">
+    <meta property="og:description" content="Original projects, writing, and talks from Jay Gordon, a Senior Program Manager working across technical product strategy, developer experience, and AI-assisted development.">
     <meta property="og:url" content="https://jaydestro.github.io/">
     <meta property="og:image" content="https://jaydestro.github.io/headshot-960.jpg">
     <meta property="og:image:alt" content="Headshot of Jay Gordon">
@@ -22,6 +22,7 @@
       <a class="wordmark" href="./" aria-label="Jay Gordon home">jay<span>destro</span><span class="brand-dot" aria-hidden="true">.</span></a>
       <nav aria-label="Main navigation">
         <a href="#projects">Projects</a>
+        <a href="#selected-works">Selected works</a>
         <a href="#talks">Talks &amp; writing</a>
         <a href="#connect">Connect <span aria-hidden="true">&#8599;</span></a>
       </nav>
@@ -30,28 +31,33 @@
     <main id="main">
       <section class="hero wrap" aria-labelledby="intro-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="small-dot" aria-hidden="true"></span> Jay Gordon / @jaydestro</p>
+          <figure class="portrait">
+            <div class="portrait-frame">
+              <picture>
+                <source type="image/webp" srcset="headshot-480.webp 480w, headshot-960.webp 960w" sizes="128px">
+                <img src="headshot-480.jpg" srcset="headshot-480.jpg 480w, headshot-960.jpg 960w" sizes="128px" width="960" height="1200" alt="Jay Gordon smiling, wearing a navy New York Yankees cap." fetchpriority="high">
+              </picture>
+            </div>
+            <figcaption><span class="portrait-name">Jay Gordon</span><span>Senior Program Manager / Microsoft</span></figcaption>
+          </figure>
           <h1 id="intro-title">Cloud, code<br>&amp; <span class="serif">community.</span></h1>
-          <p class="hero-intro">I help developers put cloud tools to work.</p>
-          <p class="hero-description">I'm a Senior Program Manager at Microsoft, focused on Azure Cosmos DB and developer communities. I build demos, write, and give talks about what it takes to get applications working &mdash; and understand how they behave.</p>
+          <p class="hero-intro">I turn technical ideas into useful tools and experiences.</p>
+          <p class="hero-description">I'm a Senior Program Manager at Microsoft working across technical product strategy, developer experience, and applied AI. My work combines hands-on experiments with clear communication to help teams make complex technology useful.</p>
           <div class="hero-actions">
-            <a class="button" href="#projects">Explore my projects <span aria-hidden="true">&#8595;</span></a>
+            <a class="button" href="#projects">Explore my work <span aria-hidden="true">&#8595;</span></a>
             <a class="text-link" href="https://github.com/jaydestro">Find me on GitHub <span aria-hidden="true">&#8599;</span></a>
           </div>
         </div>
-        <figure class="portrait">
-          <div class="portrait-frame">
-            <picture>
-              <source type="image/webp" srcset="headshot-480.webp 480w, headshot-960.webp 960w" sizes="(max-width: 760px) calc(100vw - 40px), 420px">
-              <img src="headshot-960.jpg" srcset="headshot-480.jpg 480w, headshot-960.jpg 960w" sizes="(max-width: 760px) calc(100vw - 40px), 420px" width="960" height="1200" alt="Jay Gordon smiling with arms crossed, wearing a navy New York Yankees cap and a black zip-up hoodie." fetchpriority="high">
-            </picture>
+        <figure class="hero-video">
+          <div class="video-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/SxaKOmqX-rk?start=518" title="Featured video selected by Jay Gordon, starting at 8 minutes 38 seconds" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
-          <figcaption><span class="portrait-name">Jay Gordon</span><span>Senior Program Manager / Azure Cosmos DB</span></figcaption>
+          <figcaption><span>Featured video / Starts at 8:38</span><a class="text-link" href="https://youtu.be/SxaKOmqX-rk?t=518">Watch on YouTube <span aria-hidden="true">&#8599;</span></a></figcaption>
         </figure>
       </section>
 
       <div class="focus-strip">
-        <div class="wrap focus-content"><span class="eyebrow">My focus</span><p>Azure Cosmos DB <span aria-hidden="true">/</span> AI-assisted development <span aria-hidden="true">/</span> Cloud &amp; operations</p></div>
+        <div class="wrap focus-content"><span class="eyebrow">Areas of work</span><p>Technical product strategy <span aria-hidden="true">/</span> AI-assisted development <span aria-hidden="true">/</span> Developer experience</p></div>
       </div>
 
       <section id="projects" class="section wrap" aria-labelledby="projects-title">
@@ -61,22 +67,91 @@
         </div>
         <div class="project-grid">
           <article class="project-card featured">
-            <div class="card-top"><span class="project-number">01</span><span class="tag">Performance experiment</span></div>
-            <h3><a href="https://github.com/jaydestro/ticketapi">Can an agent-built<br>app scale?<span class="card-arrow" aria-hidden="true">&#8599;</span></a></h3>
-            <p>A ticketing API that puts AI-generated code under a realistic workload. Compare Cosmos DB request units, throttling, and latency before and after agent-guided improvements.</p>
-            <div class="card-bottom"><span>.NET / Cosmos DB / Bicep</span><span>ticketapi</span></div>
+            <div class="card-top"><span class="project-number">01</span><span class="tag">Fleet operations / CI</span></div>
+            <h3><a href="https://github.com/AzureCosmosDB/fleetcharge-agent-cosmos-ci">FleetCharge: an agent<br>grounded in data<span class="card-arrow" aria-hidden="true">&#8599;</span></a></h3>
+            <p>A fleet-operations sample where an agent reviews vehicle and charging data, then makes grounded recommendations. Includes an emulator-based CI workflow to test agent behavior with Cosmos DB.</p>
+            <div class="card-bottom"><span>Python / Agent Framework / Cosmos DB</span><span>FleetCharge sample</span></div>
           </article>
           <article class="project-card">
-            <div class="card-top"><span class="project-number">02</span><span class="tag">Developer tooling</span></div>
+            <div class="card-top"><span class="project-number">02</span><span class="tag">Working web app</span></div>
+            <h3><a href="https://github.com/jaydestro/cosmicmovies">A movie-review app<br>backed by Cosmos DB<span class="card-arrow" aria-hidden="true">&#8599;</span></a></h3>
+            <p>A full-stack app for browsing movies, writing reviews, and viewing ratings and reviewer profiles. Runs locally against the Cosmos DB emulator.</p>
+            <div class="card-bottom"><span>Next.js / TypeScript / Cosmos DB</span><span>cosmicmovies</span></div>
+          </article>
+          <article class="project-card">
+            <div class="card-top"><span class="project-number">03</span><span class="tag">Developer tooling</span></div>
             <h3><a href="https://github.com/jaydestro/content-scout">Content Scout<span class="card-arrow" aria-hidden="true">&#8599;</span></a></h3>
-            <p>A research agent for discovering developer content, organizing findings, and drafting social posts. Work from your editor or a browser dashboard.</p>
+            <p>A content research agent that scans public sources, filters and catalogs useful findings, and drafts reports and social posts. Use it from an editor or a browser dashboard.</p>
             <div class="card-bottom"><span>AI agents / JavaScript</span><span>content-scout</span></div>
           </article>
           <article class="project-card">
-            <div class="card-top"><span class="project-number">03</span><span class="tag">Application sample</span></div>
-            <h3><a href="https://github.com/jaydestro/eshop-catalog-cosmos">A catalog, rethought.<span class="card-arrow" aria-hidden="true">&#8599;</span></a></h3>
-            <p>An eShop catalog API migrated from SQL to Azure Cosmos DB. Explore a .NET minimal API with managed identity, keyless access, and Azure Developer CLI deployment.</p>
-            <div class="card-bottom"><span>.NET / Cosmos DB / azd</span><span>eshop-catalog-cosmos</span></div>
+            <div class="card-top"><span class="project-number">04</span><span class="tag">Open-source evaluation</span></div>
+            <h3><a href="https://opensource.microsoft.com/blog/2026/10/19/introducing-scope-open-source-evaluation-for-ai-coding-agents/">SCOPE: evaluating<br>AI coding agents<span class="card-arrow" aria-hidden="true">&#8599;</span></a></h3>
+            <p>Introducing SCOPE, an open-source approach to evaluating AI coding agents. A look at measuring agent capabilities beyond a generated code demo.</p>
+            <div class="card-bottom"><span>Microsoft Open Source Blog</span><time datetime="2026-10-19">Oct 2026</time></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="selected-works" class="section wrap" aria-labelledby="selected-works-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / Selected works</p><h2 id="selected-works-title">Building, teaching <span class="serif">&amp; sharing.</span></h2></div>
+        </div>
+        <div class="selected-work-grid">
+          <article class="selected-work">
+            <p class="eyebrow">AI evaluation / 2026</p>
+            <h3>Agent Efficacy / Project SCOPE</h3>
+            <p>Built and ran coding-agent evaluations across multiple AI models and hundreds of generated samples using static analysis, compile-time checks, execution, and unit tests. Findings informed 20 merged Agent Kit pull requests and 27 public documentation improvements. In evaluated scenarios, a targeted update increased hierarchical partition-key adoption from 47% to 100% and reduced OFFSET/LIMIT usage from 47% to 0%. Co-presented <a href="https://www.youtube.com/watch?v=SxaKOmqX-rk">From Findings to Fixes</a> with Cedric Vidal and was featured in <a href="https://opensource.microsoft.com/blog/2026/10/19/introducing-scope-open-source-evaluation-for-ai-coding-agents/">Microsoft’s SCOPE case study</a>.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Agentic application development / 2026</p>
+            <h3>Microsoft Reactor demonstrations</h3>
+            <p>Delivered <a href="https://developer.microsoft.com/en-us/reactor/events/26885/">Vibe Coding on Azure Cosmos DB: Build an AI App</a> and <a href="https://developer.microsoft.com/en-us/reactor/events/27410/">Building APIs Faster with Agentic Development and Azure Cosmos DB</a>. Demonstrated GitHub Copilot, Azure MCP, and the Azure Cosmos DB Agent Kit through application builds covering CRUD APIs, SDK integration, data modeling, partitioning, and indexing.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Conference / 2025</p>
+            <h3>Microsoft Ignite</h3>
+            <p>Co-presented <a href="https://ignite.microsoft.com/en-US/sessions/THR708">Vibe coding: Ship it faster with GitHub Copilot and Azure Cosmos DB</a> with Sajeetharan Sinnathurai. Demonstrated application development using GitHub Copilot, the Azure Cosmos DB Linux emulator, and the VS Code extension, giving developers a practical workflow for building and testing locally.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Technical discussion / June 2026</p>
+            <h3>The Ravit Show — Azure Cosmos DB Conf Key Takeaways</h3>
+            <p>Joined Ravit Jain and Patty Chow for a <a href="https://www.youtube.com/watch?v=kJ-iS2vls7o">technical discussion</a> translating conference announcements into practical guidance for building AI applications. Covered agent memory, hybrid search, global scale, query cost visibility, and the Azure Cosmos DB Agent Kit.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Developer conference / 2023–2026</p>
+            <h3>Azure Cosmos DB Conf</h3>
+            <p>Led planning, production, and live hosting for the annual developer conference, including the <a href="https://developer.azurecosmosdb.com/conf/">five-hour 2026 broadcast</a>. Built the event website, developed speakers and technical programming, and coordinated customer testimonials. The 2026 program covered AI agent memory, retrieval, data modeling, and production architecture.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Developer education / 2020–2022</p>
+            <h3>AzureFunBytes and MSCreate: DevOps</h3>
+            <p>Created and hosted more than 60 AzureFunBytes episodes, including walkthroughs of <a href="https://devblogs.microsoft.com/devops/azurefunbytes-intro-to-bicep/">Bicep infrastructure deployment</a> and <a href="https://devblogs.microsoft.com/devops/azurefunbytes-episode-65-azure-durable-functions-for-automation-with-lbugnion/">Durable Functions automation</a>. Produced and co-hosted <a href="https://techcommunity.microsoft.com/discussions/itopstalkforum/join-us-at-mscreate-devops-on-learntv-october-21-2021/2860821/">MSCreate: DevOps</a>, teaching automated Kubernetes deployment with Bicep, GitHub Actions, and Azure Key Vault.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Reliability / 2018–2020</p>
+            <h3>Operational reliability and community education</h3>
+            <p>Created and hosted the 48-episode <a href="https://podcasts.apple.com/ca/podcast/on-call-nightmares-podcast/id1447430839">On-Call Nightmares</a> podcast, sharing incident-response and reliability lessons from practitioners including Kelsey Hightower, Silvia Botros, and Ryan Kitchens. Presented <a href="https://devopsdays.org/events/2019-new-york-city/program">Checklists: Good Enough for NASA, Good Enough for Your App</a> at DevOpsDays, translating operational experience into practical engineering habits.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Conference / 2018</p>
+            <h3>Microsoft Ignite — The Tour, Berlin</h3>
+            <p>Demonstrated <a href="https://learn.microsoft.com/en-us/shows/devops-lab/running-your-first-docker-container-in-azure">Running Your First Docker Container in Azure</a>, introducing container deployment through Azure Container Registry and Azure App Service. Published the accompanying <a href="https://github.com/jaydestro/demo-app">sample application</a> so developers could follow the workflow themselves.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Database deployment / 2017–2018</p>
+            <h3>MongoDB Atlas deployment and automation</h3>
+            <p>Published an <a href="https://github.com/jaydestro/atlas-ansible">Ansible playbook</a> that provisioned MongoDB Atlas clusters through its API. Authored <a href="https://medium.com/google-cloud/modern-distributed-application-deployment-with-kubernetes-and-mongodb-atlas-4ec9eff5bab2">Modern Distributed Application Deployment with Kubernetes and MongoDB Atlas</a>, demonstrating how to containerize a Node.js application with Docker, connect it to Atlas, and deploy it on Google Kubernetes Engine.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Technical training / 2017</p>
+            <h3>MongoDB — O’Reilly</h3>
+            <p>Delivered <a href="https://www.oreilly.com/videos/introduction-to-mongodb/9781492027065/">Introduction to MongoDB</a>, guiding developers from document database fundamentals through Atlas deployment, application connectivity, and data operations. Covered backups, alerts, and performance monitoring to connect initial adoption with operational readiness.</p>
+          </article>
+          <article class="selected-work">
+            <p class="eyebrow">Production reliability / 2015; presented 2019</p>
+            <h3>BuzzFeed — production reliability and #TheDress</h3>
+            <p>Served as the on-call engineer during the viral traffic surge that exceeded 670,000 active visitors. Worked with the engineering team to mitigate production failures, then shared lessons in incident response, scaling, and operational toil through <a href="https://devopsdays.org/events/2019-portland/program/jay-gordon">What I Learned From a Dress, an On-Call Nightmare</a> at DevOpsDays Portland.</p>
           </article>
         </div>
       </section>
@@ -84,22 +159,15 @@
       <section id="talks" class="talks-section" aria-labelledby="talks-title">
         <div class="section wrap talks-layout">
           <div class="talks-intro">
-            <p class="eyebrow">02 / Ideas, shared</p>
-            <h2 id="talks-title">Less theory.<br>More <span class="serif">show &amp; tell.</span></h2>
-            <p>Recent livestreams, events, and Azure Cosmos DB Blog posts about building, testing, and scaling modern apps.</p>
-            <a class="text-link" href="https://devblogs.microsoft.com/cosmosdb/author/jagord/">All posts on the Azure Cosmos DB Blog <span aria-hidden="true">&#8599;</span></a>
+            <p class="eyebrow">03 / Writing &amp; speaking</p>
+            <h2 id="talks-title">Show <span class="serif">&amp; tell.</span></h2>
+            <p>A few recent highlights from my writing and talks, with more practical guides to explore below.</p>
           </div>
           <div class="talk-list">
-            <a class="talk" href="https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/">
-              <span class="eyebrow">Blog / <time datetime="2026-10">Oct 2026</time></span>
-              <h3>Inspecting Local Data with Azure Cosmos DB Shell</h3>
-              <p>Browse, query, and read emulator data from the terminal before you deploy.</p>
-              <span class="talk-arrow" aria-hidden="true">&#8599;</span>
-            </a>
-            <a class="talk" href="https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/">
-              <span class="eyebrow">Blog / <time datetime="2026-10">Oct 2026</time></span>
-              <h3>From Local Development to CI Workflows with the Azure Cosmos DB Emulator</h3>
-              <p>Run the same data-level tests locally and in GitHub Actions.</p>
+            <a class="talk" href="https://opensource.microsoft.com/blog/2026/10/19/introducing-scope-open-source-evaluation-for-ai-coding-agents/">
+              <span class="eyebrow">Blog / Microsoft Open Source / <time datetime="2026-10-19">Oct 2026</time></span>
+              <h3>Introducing SCOPE: Open-source evaluation for AI coding agents</h3>
+              <p>Moving beyond generated demos to evaluate what coding agents can do.</p>
               <span class="talk-arrow" aria-hidden="true">&#8599;</span>
             </a>
             <a class="talk" href="https://developer.microsoft.com/en-us/reactor/events/27613/">
@@ -114,28 +182,37 @@
               <p>The performance experiment behind the Ticketing API Demo.</p>
               <span class="talk-arrow" aria-hidden="true">&#8599;</span>
             </a>
-            <a class="talk" href="https://devblogs.microsoft.com/cosmosdb/welcome-to-azure-cosmos-db-conf-2026/">
-              <span class="eyebrow">Event / Azure Cosmos DB Conf / <time datetime="2026-04">Apr 2026</time></span>
-              <h3>Welcome to Azure Cosmos DB Conf 2026</h3>
-              <p>The keynote, speakers, and sessions from this year's developer conference.</p>
-              <span class="talk-arrow" aria-hidden="true">&#8599;</span>
-            </a>
-            <a class="writing-link text-link" href="https://www.youtube.com/playlist?list=PLlrxD0HtieHh0o6VplO6WczH89pVWJwP1">Watch Azure Cosmos DB Conf 2026 replays on YouTube <span aria-hidden="true">&#8599;</span></a>
+            <details class="more-talks">
+              <summary><span class="see-more">See more</span><span class="see-less">See less</span><span class="more-count">Writing &amp; talks</span></summary>
+              <div class="more-talks-list">
+                <a class="talk" href="https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/">
+                  <span class="eyebrow">Blog / <time datetime="2026-10">Oct 2026</time></span>
+                  <h3>Inspecting Local Data with Azure Cosmos DB Shell</h3>
+                  <p>Browse, query, and read emulator data from the terminal before you deploy.</p>
+                  <span class="talk-arrow" aria-hidden="true">&#8599;</span>
+                </a>
+                <a class="talk" href="https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/">
+                  <span class="eyebrow">Blog / <time datetime="2026-10">Oct 2026</time></span>
+                  <h3>From Local Development to CI Workflows with the Azure Cosmos DB Emulator</h3>
+                  <p>Run the same data-level tests locally and in GitHub Actions.</p>
+                  <span class="talk-arrow" aria-hidden="true">&#8599;</span>
+                </a>
+              </div>
+            </details>
           </div>
         </div>
       </section>
 
       <section id="connect" class="section wrap connect-section" aria-labelledby="connect-title">
         <div>
-          <p class="eyebrow">03 / Keep in touch</p>
+          <p class="eyebrow">04 / Keep in touch</p>
           <h2 id="connect-title">Good work starts<br>with <span class="serif">a conversation.</span></h2>
         </div>
         <div class="connect-copy">
-          <p>My background is in Linux, system administration, DevOps, and databases. For my latest updates, follow me on LinkedIn or read my posts on the Azure Cosmos DB Blog.</p>
+          <p>My background spans Linux, system administration, DevOps, and databases. Today, I bring that hands-on foundation to technical product work by building tools, testing ideas, and making complex engineering topics easier to use.</p>
           <div class="connect-links">
             <a class="button" href="https://www.linkedin.com/in/jaygordon0042/">LinkedIn <span aria-hidden="true">&#8599;</span></a>
             <a class="text-link" href="https://github.com/jaydestro">GitHub <span aria-hidden="true">&#8599;</span></a>
-            <a class="text-link" href="https://devblogs.microsoft.com/cosmosdb/author/jagord/">Azure Cosmos DB Blog <span aria-hidden="true">&#8599;</span></a>
           </div>
           <p class="project-note">Have a question about a project? Open an issue in its repository so the discussion can help the next person, too.</p>
         </div>
@@ -143,8 +220,6 @@
     </main>
     <footer class="site-footer wrap">
       <a class="wordmark" href="./">jay<span>destro</span><span class="brand-dot" aria-hidden="true">.</span></a>
-      <p>Jay Gordon. Built for the web, without the extra machinery.</p>
-      <a class="text-link" href="https://github.com/jaydestro/jaydestro.github.io">View source <span aria-hidden="true">&#8599;</span></a>
     </footer>
   </body>
 </html>
