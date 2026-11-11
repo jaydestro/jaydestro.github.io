@@ -19,7 +19,7 @@ Open <http://127.0.0.1:8000>. No package installation or build step is needed.
 - Both pages link the circular header portrait to LinkedIn and the name to the home page; the footer includes the name and a resume link.
 - Update the layout and responsive styles in `styles.css`. The blue-and-black palette and gradients are defined as CSS variables in its `:root` block.
 - `favicon.svg` contains the site's icon. The header and footer use `headshot-480.webp` for the circular portrait; regenerate the photo variants if you replace it.
-- The hero uses a responsive YouTube embed. Update the iframe's video ID and `start` value (in seconds), plus its title, caption, and YouTube link, together.
+- The hero uses a responsive YouTube embed. Update the iframe's video ID, title, caption, and YouTube link together.
 
 GitHub Pages publishes directly from the root of `main`. Merging changes into
 `main` triggers publication; feature branches do not change the live site.
