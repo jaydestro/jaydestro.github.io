@@ -94,6 +94,7 @@ h2 { font-size: clamp(2.4rem, 4vw, 3.5rem); line-height: 1.1; letter-spacing: -.
 .selected-work a:hover { text-decoration-color: currentColor; }
 .selected-work-list .selected-work p:not(.eyebrow) { font-size: .8rem; }
 .work-image { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: contain; margin-block: 16px; border-radius: 3px; }
+.selected-work .video-frame { margin-block: 16px; }
 .talks-section { background: var(--gradient-band); border-block: 1px solid var(--line); }
 .talks-layout { display: grid; grid-template-columns: .8fr 1.4fr; gap: 64px; }
 .talks-intro > p:not(.eyebrow) { font-size: .9rem; color: var(--muted); max-width: 300px; margin-top: 24px; margin-bottom: 26px; }
