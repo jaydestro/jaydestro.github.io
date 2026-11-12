@@ -22,6 +22,7 @@ Open <http://127.0.0.1:8000>. No package installation or build step is needed.
 - Update the layout and responsive styles in `styles.css`. The blue-and-black palette and gradients are defined as CSS variables in its `:root` block.
 - `favicon.svg` contains the site's icon. The header and footer use `headshot-480.webp` for the circular portrait; regenerate the photo variants if you replace it.
 - The hero uses a responsive YouTube embed. Update the iframe's video ID, title, caption, and YouTube link together.
+- The visible Azure Cosmos DB Conf entry in Selected works includes a responsive video embed and a short description of the conference role. Keep its embed and watch link pointed at the same video.
 
 GitHub Pages publishes directly from the root of `main`. Merging changes into
 `main` triggers publication; feature branches do not change the live site.
@@ -43,5 +44,5 @@ YouTube channel for more writing and videos, including older work.
 Before publishing, check the page at desktop and mobile widths, navigate links
 using the keyboard, and confirm that project and talk links point to the intended
 destinations. The site does not use its own JavaScript, external fonts, or
-analytics. The featured video uses YouTube's privacy-enhanced embed domain
-(`youtube-nocookie.com`); the player loads third-party content.
+analytics. Embedded videos use YouTube's privacy-enhanced embed domain
+(`youtube-nocookie.com`); the players load third-party content.
