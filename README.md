@@ -17,6 +17,8 @@ Open <http://127.0.0.1:8000>. No package installation or build step is needed.
 - Update the bio, projects, selected works, talks, and links in `index.html`.
 - Update professional experience, technical skills, and career highlights in `resume.html`. Keep `resume.pdf` in sync with the HTML; the page includes print styles and a PDF download.
 - Both pages link the circular header portrait to LinkedIn and the name to the home page; the footer includes the name and a resume link.
+- Both pages also include a visible LinkedIn link in the top navigation. Selected works includes the Azure Cosmos DB Developer Hub with its linked social-card image; the project grid includes Content Readiness Skill (`aeo-skill`) as a standard text entry. Keep their links and descriptions aligned with the source projects.
+- `cosmos-dev-hub.png` is the Developer Hub's official social card, copied from `jaydestro/cosmosweb` at `client/static/img/social/cosmos-dev-hub.png` so the image is served locally.
 - Update the layout and responsive styles in `styles.css`. The blue-and-black palette and gradients are defined as CSS variables in its `:root` block.
 - `favicon.svg` contains the site's icon. The header and footer use `headshot-480.webp` for the circular portrait; regenerate the photo variants if you replace it.
 - The hero uses a responsive YouTube embed. Update the iframe's video ID, title, caption, and YouTube link together.
